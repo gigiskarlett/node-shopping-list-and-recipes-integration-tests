@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: u1Wp416oU2Lq2ZTEZX5u+2tYgjntSgVwvnN1y4K6BGUf0OOaOoLLoIP5KvoT1aDNC00GycH7quC5vFe1VDmE+Z9kU9m0uvUXGYKuC0uWR7m9jCKRpGlpTvsaVDe7iycDJTzdb4gQTfD0wa6Kv24uOKv4r3bIQdZ/vfCfmP13VqrX2zp/rGmCUVyFieX1NX497T2phtx4RUoScEVnVMsKCLNX1uCVODcrsIEsKq2wDPQ0g8Pf9DD4nU680eilAUxPB2mo9O51WTBmUswGdKFW9uo6W9PicIbibnzZPqrQWSQzHecvE00jEkgdwaXfBcwFEcLcZzOVgwj2tISCYc9f0F8enOcWoaoH/485L3fIXSm9nq0Nf3KBU3DabkRtGF0X745qDspJjXLl21tLdRRAIWImJ3LAdAIC9y+FXjfzOHsTYnuOOlleXBFa3889Ovsv+AB5dBozWzKOTDMhDyF+Cs4xzYdG31sG469YMk+5AmS+ozTfVFsYrYcuCJQDLw+ibVcs1T1kcpSbTEltSdu5qLIKA3KhkAjuOpl9EcTuyKy3F4NMQZf2zwrvRclLTXY/HiOQBI8J4lTVQTgYp1GNjoRabxMC7KWUcFkvF0cZNlT3KDbyM/XIDJ8DpUtQnM9mY5p1bRp8+d6JGsMMr5CEiePtBBSWpkYIyApvneKBE1c=
+  app: whispering-anchorage-95263
+  on:
+    repo: gigiskarlett/node-shopping-list-and-recipes-integration-tests
+    branch: tests-for-recipes
